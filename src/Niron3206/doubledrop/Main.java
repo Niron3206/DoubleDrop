@@ -36,7 +36,7 @@ public class Main extends JavaPlugin {
             if(sender.hasPermission("doubledrop.reload")) {
                 reloadConfig();
                 sender.sendMessage(ChatColor.GREEN + "Plugin reload!");
-                getServer().getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f[Doubledrop] ") + ChatColor.GREEN + "Config reload!");
+                getServer().getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f[DoubleDrop] ") + ChatColor.GREEN + "Config reload!");
                 return true;
             }
         }
