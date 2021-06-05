@@ -3,5 +3,5 @@ version: 1.0
 main: Niron3206.doubledrop.Main
 commands:
     doubledrop:
-        description: Перезагружает плагин.
+        description: Reload the plugin.
         usage: /doubledrop reload
